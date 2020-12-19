@@ -21,7 +21,7 @@ public class ExcelMethods {
 	
 	//Location of the Excel File
 	private static String path = System.getProperty("user.dir") + "\\src\\main\\java\\com\\jostens\\qa\\testdata\\Jostens.xlsx";
-	public static String sheetName = "";
+	public static String sheetName = "Login";
 	
 	public void setSheetName(String desiredSheetName) {
 		sheetName = desiredSheetName;
