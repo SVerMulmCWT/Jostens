@@ -2,16 +2,16 @@
 <testng-results ignored="10" total="27" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-19T12:01:46 CST" name="TestSuite" finished-at="2020-12-19T12:03:50 CST" duration-ms="123617">
+  <suite started-at="2020-12-19T16:27:56 CST" name="TestSuite" finished-at="2020-12-19T16:30:12 CST" duration-ms="136005">
     <groups>
     </groups>
-    <test started-at="2020-12-19T12:01:46 CST" name="Test 1" finished-at="2020-12-19T12:03:50 CST" duration-ms="123617">
+    <test started-at="2020-12-19T16:27:56 CST" name="Test 1" finished-at="2020-12-19T16:30:12 CST" duration-ms="136005">
       <class name="com.jostens.qa.testcases.SchoolStorePageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@9353778]" started-at="2020-12-19T12:02:01 CST" name="beforeClass" finished-at="2020-12-19T12:02:01 CST" duration-ms="34" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@71def8f8]" started-at="2020-12-19T16:28:21 CST" name="beforeClass" finished-at="2020-12-19T16:28:21 CST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@9353778]" started-at="2020-12-19T12:02:01 CST" name="productSearchTest" data-provider="inputs" finished-at="2020-12-19T12:02:27 CST" duration-ms="25259" status="PASS">
+        <test-method signature="productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@71def8f8]" started-at="2020-12-19T16:28:21 CST" name="productSearchTest" data-provider="inputs" finished-at="2020-12-19T16:28:48 CST" duration-ms="26208" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@
             </param>
             <param index="10">
               <value>
-                <![CDATA[Failure - 2020/12/19 11:59:05]]>
+                <![CDATA[Success - 2020/12/19 12:02:27]]>
               </value>
             </param>
             <param index="11">
@@ -77,18 +77,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSearchTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@9353778]" started-at="2020-12-19T12:02:27 CST" name="afterMethod" finished-at="2020-12-19T12:02:27 CST" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@71def8f8]" started-at="2020-12-19T16:28:48 CST" name="afterMethod" finished-at="2020-12-19T16:28:48 CST" duration-ms="128" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=productSearchTest status=SUCCESS method=SchoolStorePageTest.productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@9353778] output={null}]]]>
+                <![CDATA[[TestResult name=productSearchTest status=SUCCESS method=SchoolStorePageTest.productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@71def8f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@9353778]" started-at="2020-12-19T12:02:27 CST" name="productSearchTest" data-provider="inputs" finished-at="2020-12-19T12:02:48 CST" duration-ms="21292" status="PASS">
+        <test-method signature="productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@71def8f8]" started-at="2020-12-19T16:28:48 CST" name="productSearchTest" data-provider="inputs" finished-at="2020-12-19T16:29:10 CST" duration-ms="22647" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@
             </param>
             <param index="10">
               <value>
-                <![CDATA[Failure - 2020/12/19 11:59:17]]>
+                <![CDATA[Success - 2020/12/19 12:02:48]]>
               </value>
             </param>
             <param index="11">
@@ -154,18 +154,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSearchTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@9353778]" started-at="2020-12-19T12:02:48 CST" name="afterMethod" finished-at="2020-12-19T12:02:48 CST" duration-ms="101" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@71def8f8]" started-at="2020-12-19T16:29:10 CST" name="afterMethod" finished-at="2020-12-19T16:29:11 CST" duration-ms="106" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=productSearchTest status=SUCCESS method=SchoolStorePageTest.productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@9353778] output={null}]]]>
+                <![CDATA[[TestResult name=productSearchTest status=SUCCESS method=SchoolStorePageTest.productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@71def8f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@9353778]" started-at="2020-12-19T12:02:48 CST" name="productSearchTest" data-provider="inputs" finished-at="2020-12-19T12:03:09 CST" duration-ms="20746" status="PASS">
+        <test-method signature="productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@71def8f8]" started-at="2020-12-19T16:29:11 CST" name="productSearchTest" data-provider="inputs" finished-at="2020-12-19T16:29:33 CST" duration-ms="22359" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -219,7 +219,7 @@
             </param>
             <param index="10">
               <value>
-                <![CDATA[Failure - 2020/12/19 11:59:30]]>
+                <![CDATA[Success - 2020/12/19 12:03:09]]>
               </value>
             </param>
             <param index="11">
@@ -231,11 +231,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSearchTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@9353778]" started-at="2020-12-19T12:03:09 CST" name="afterMethod" finished-at="2020-12-19T12:03:09 CST" duration-ms="103" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@71def8f8]" started-at="2020-12-19T16:29:33 CST" name="afterMethod" finished-at="2020-12-19T16:29:33 CST" duration-ms="111" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=productSearchTest status=SUCCESS method=SchoolStorePageTest.productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@9353778] output={null}]]]>
+                <![CDATA[[TestResult name=productSearchTest status=SUCCESS method=SchoolStorePageTest.productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.SchoolStorePageTest@71def8f8] output={null}]]]>
               </value>
             </param>
           </params>
@@ -244,317 +244,11 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- com.jostens.qa.testcases.SchoolStorePageTest -->
       <class name="com.jostens.qa.testcases.CheckoutPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:11 CST" name="beforeClass" finished-at="2020-12-19T12:03:11 CST" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:29:36 CST" name="beforeClass" finished-at="2020-12-19T16:29:36 CST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:11 CST" name="proceedWithCheckoutTest" data-provider="inputs" finished-at="2020-12-19T12:03:21 CST" duration-ms="9504" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[$24.95]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Information - Jostens School Store - Checkout]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Steve.VerMulm@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Steven]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[VerMulm]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[409 5th Ave. South]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Hopkins]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[United States]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Minnesota]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[55343]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[7123635520]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[Success - 2020/12/19 11:59:48]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- proceedWithCheckoutTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:21 CST" name="afterMethod" finished-at="2020-12-19T12:03:21 CST" duration-ms="87" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=proceedWithCheckoutTest status=SUCCESS method=CheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:21 CST" name="proceedWithCheckoutTest" data-provider="inputs" finished-at="2020-12-19T12:03:32 CST" duration-ms="11171" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Next Level Unisex Triblend Long Sleeve Pullover Hoodie]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[$33.95]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Information - Jostens School Store - Checkout]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Steve.VerMulm@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Ashlyn]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Ambrose]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[409 Beachcomber Drive]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Lake Park]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[United States]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Iowa]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[51347]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[7123632575]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[Success - 2020/12/19 11:59:54]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- proceedWithCheckoutTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:32 CST" name="afterMethod" finished-at="2020-12-19T12:03:32 CST" duration-ms="77" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=proceedWithCheckoutTest status=SUCCESS method=CheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:32 CST" name="proceedWithCheckoutTest" data-provider="inputs" finished-at="2020-12-19T12:03:39 CST" duration-ms="7171" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3 Ply Sublimated Mask]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[$18.95]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Information - Jostens School Store - Checkout]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Steve.VerMulm@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Cynthia]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Ambrosia]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[62310 Lake View Road]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Madison Lake]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[United States]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Minnesota]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[56063]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[7123635519]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[Success - 2020/12/19 12:00:02]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- proceedWithCheckoutTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:39 CST" name="afterMethod" finished-at="2020-12-19T12:03:39 CST" duration-ms="89" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=proceedWithCheckoutTest status=SUCCESS method=CheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:39 CST" name="test2" data-provider="inputs" finished-at="2020-12-19T12:03:40 CST" duration-ms="255" status="PASS">
+        <test-method signature="proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:29:36 CST" name="proceedWithCheckoutTest" data-provider="inputs" finished-at="2020-12-19T16:29:46 CST" duration-ms="9727" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -644,19 +338,19 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:40 CST" name="afterMethod" finished-at="2020-12-19T12:03:40 CST" duration-ms="66" status="PASS">
+        </test-method> <!-- proceedWithCheckoutTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:29:46 CST" name="afterMethod" finished-at="2020-12-19T16:29:46 CST" duration-ms="99" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test2 status=SUCCESS method=CheckoutPageTest.test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55] output={null}]]]>
+                <![CDATA[[TestResult name=proceedWithCheckoutTest status=SUCCESS method=CheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:40 CST" name="test2" data-provider="inputs" finished-at="2020-12-19T12:03:40 CST" duration-ms="139" status="PASS">
+        <test-method signature="proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:29:46 CST" name="proceedWithCheckoutTest" data-provider="inputs" finished-at="2020-12-19T16:29:53 CST" duration-ms="7725" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -746,19 +440,19 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:40 CST" name="afterMethod" finished-at="2020-12-19T12:03:40 CST" duration-ms="67" status="PASS">
+        </test-method> <!-- proceedWithCheckoutTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:29:53 CST" name="afterMethod" finished-at="2020-12-19T16:29:53 CST" duration-ms="76" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test2 status=SUCCESS method=CheckoutPageTest.test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55] output={null}]]]>
+                <![CDATA[[TestResult name=proceedWithCheckoutTest status=SUCCESS method=CheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:40 CST" name="test2" data-provider="inputs" finished-at="2020-12-19T12:03:40 CST" duration-ms="159" status="PASS">
+        <test-method signature="proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:29:53 CST" name="proceedWithCheckoutTest" data-provider="inputs" finished-at="2020-12-19T16:30:01 CST" duration-ms="7601" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -837,7 +531,313 @@
             </param>
             <param index="15">
               <value>
-                <![CDATA[Success - 2020/12/19 12:03:39]]>
+                <![CDATA[Success - 2020/12/19 12:03:40]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedWithCheckoutTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:30:01 CST" name="afterMethod" finished-at="2020-12-19T16:30:01 CST" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=proceedWithCheckoutTest status=SUCCESS method=CheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:30:01 CST" name="test2" data-provider="inputs" finished-at="2020-12-19T16:30:01 CST" duration-ms="242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$24.95]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Information - Jostens School Store - Checkout]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Steve.VerMulm@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Steven]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[VerMulm]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[409 5th Ave. South]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Hopkins]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Minnesota]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[55343]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7123635520]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Success - 2020/12/19 16:29:46]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:30:01 CST" name="afterMethod" finished-at="2020-12-19T16:30:01 CST" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=CheckoutPageTest.test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:30:02 CST" name="test2" data-provider="inputs" finished-at="2020-12-19T16:30:02 CST" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Next Level Unisex Triblend Long Sleeve Pullover Hoodie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$33.95]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Information - Jostens School Store - Checkout]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Steve.VerMulm@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ashlyn]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ambrose]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[409 Beachcomber Drive]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Lake Park]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Iowa]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[51347]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7123632575]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Success - 2020/12/19 16:29:53]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:30:02 CST" name="afterMethod" finished-at="2020-12-19T16:30:02 CST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=CheckoutPageTest.test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:30:02 CST" name="test2" data-provider="inputs" finished-at="2020-12-19T16:30:02 CST" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3 Ply Sublimated Mask]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$18.95]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Information - Jostens School Store - Checkout]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Steve.VerMulm@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Cynthia]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ambrosia]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[62310 Lake View Road]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Madison Lake]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Minnesota]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[56063]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7123635519]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Success - 2020/12/19 16:30:01]]>
               </value>
             </param>
             <param index="16">
@@ -849,11 +849,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55]" started-at="2020-12-19T12:03:40 CST" name="afterMethod" finished-at="2020-12-19T12:03:40 CST" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11]" started-at="2020-12-19T16:30:02 CST" name="afterMethod" finished-at="2020-12-19T16:30:02 CST" duration-ms="74" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test2 status=SUCCESS method=CheckoutPageTest.test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jostens.qa.testcases.CheckoutPageTest@48ae9b55] output={null}]]]>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=CheckoutPageTest.test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jostens.qa.testcases.CheckoutPageTest@4d465b11] output={null}]]]>
               </value>
             </param>
           </params>
@@ -862,7 +862,7 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- com.jostens.qa.testcases.CheckoutPageTest -->
       <class name="com.jostens.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@7e0b85f9]" started-at="2020-12-19T12:01:40 CST" name="beforeSuite" finished-at="2020-12-19T12:01:46 CST" duration-ms="6658" status="PASS">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@3bf9ce3e]" started-at="2020-12-19T16:27:43 CST" name="beforeSuite" finished-at="2020-12-19T16:27:56 CST" duration-ms="13404" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -888,11 +888,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@7e0b85f9]" started-at="2020-12-19T12:01:46 CST" name="beforeClass" finished-at="2020-12-19T12:01:47 CST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@3bf9ce3e]" started-at="2020-12-19T16:27:56 CST" name="beforeClass" finished-at="2020-12-19T16:27:57 CST" duration-ms="877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@7e0b85f9]" started-at="2020-12-19T12:01:47 CST" name="loginTest" data-provider="inputs" finished-at="2020-12-19T12:01:53 CST" duration-ms="6147" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@3bf9ce3e]" started-at="2020-12-19T16:27:59 CST" name="loginTest" data-provider="inputs" finished-at="2020-12-19T16:28:07 CST" duration-ms="8364" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -926,7 +926,7 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[Success - 2020/12/19 11:58:30]]>
+                <![CDATA[Success - 2020/12/19 12:01:53]]>
               </value>
             </param>
             <param index="7">
@@ -941,18 +941,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@7e0b85f9]" started-at="2020-12-19T12:01:53 CST" name="afterMethod" finished-at="2020-12-19T12:01:54 CST" duration-ms="538" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@3bf9ce3e]" started-at="2020-12-19T16:28:07 CST" name="afterMethod" finished-at="2020-12-19T16:28:09 CST" duration-ms="1231" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@7e0b85f9] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@3bf9ce3e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@7e0b85f9]" started-at="2020-12-19T12:01:54 CST" name="loginTest" data-provider="inputs" finished-at="2020-12-19T12:01:56 CST" duration-ms="2338" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@3bf9ce3e]" started-at="2020-12-19T16:28:09 CST" name="loginTest" data-provider="inputs" finished-at="2020-12-19T16:28:11 CST" duration-ms="2697" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -986,7 +986,7 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[Success - 2020/12/19 11:58:33]]>
+                <![CDATA[Success - 2020/12/19 12:01:56]]>
               </value>
             </param>
             <param index="7">
@@ -1001,28 +1001,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@7e0b85f9]" started-at="2020-12-19T12:01:56 CST" name="afterMethod" finished-at="2020-12-19T12:01:57 CST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@3bf9ce3e]" started-at="2020-12-19T16:28:11 CST" name="afterMethod" finished-at="2020-12-19T16:28:11 CST" duration-ms="152" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@7e0b85f9] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@3bf9ce3e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@7e0b85f9]" started-at="2020-12-19T12:03:50 CST" name="afterSuite" finished-at="2020-12-19T12:03:50 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.jostens.qa.testcases.LoginPageTest@3bf9ce3e]" started-at="2020-12-19T16:30:12 CST" name="afterSuite" finished-at="2020-12-19T16:30:12 CST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.jostens.qa.testcases.LoginPageTest -->
       <class name="com.jostens.qa.testcases.HomePageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.HomePageTest@63355449]" started-at="2020-12-19T12:01:57 CST" name="beforeClass" finished-at="2020-12-19T12:01:57 CST" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.HomePageTest@16610890]" started-at="2020-12-19T16:28:12 CST" name="beforeClass" finished-at="2020-12-19T16:28:12 CST" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="searchForSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.HomePageTest@63355449]" started-at="2020-12-19T12:01:57 CST" name="searchForSchoolTest" data-provider="inputs" finished-at="2020-12-19T12:01:59 CST" duration-ms="2031" status="PASS">
+        <test-method signature="searchForSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.HomePageTest@16610890]" started-at="2020-12-19T16:28:12 CST" name="searchForSchoolTest" data-provider="inputs" finished-at="2020-12-19T16:28:18 CST" duration-ms="5483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1036,7 +1036,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[Success - 2020/12/19 11:58:36]]>
+                <![CDATA[Success - 2020/12/19 12:01:59]]>
               </value>
             </param>
             <param index="3">
@@ -1048,18 +1048,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForSchoolTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.HomePageTest@63355449]" started-at="2020-12-19T12:01:59 CST" name="afterMethod" finished-at="2020-12-19T12:01:59 CST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.HomePageTest@16610890]" started-at="2020-12-19T16:28:18 CST" name="afterMethod" finished-at="2020-12-19T16:28:18 CST" duration-ms="128" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchForSchoolTest status=SUCCESS method=HomePageTest.searchForSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.HomePageTest@63355449] output={null}]]]>
+                <![CDATA[[TestResult name=searchForSchoolTest status=SUCCESS method=HomePageTest.searchForSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.HomePageTest@16610890] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="searchForSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.HomePageTest@63355449]" started-at="2020-12-19T12:01:59 CST" name="searchForSchoolTest" data-provider="inputs" finished-at="2020-12-19T12:02:01 CST" duration-ms="2278" status="PASS">
+        <test-method signature="searchForSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.HomePageTest@16610890]" started-at="2020-12-19T16:28:18 CST" name="searchForSchoolTest" data-provider="inputs" finished-at="2020-12-19T16:28:21 CST" duration-ms="3447" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1073,7 +1073,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[Success - 2020/12/19 11:58:39]]>
+                <![CDATA[Success - 2020/12/19 12:02:01]]>
               </value>
             </param>
             <param index="3">
@@ -1085,11 +1085,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForSchoolTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.HomePageTest@63355449]" started-at="2020-12-19T12:02:01 CST" name="afterMethod" finished-at="2020-12-19T12:02:01 CST" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.HomePageTest@16610890]" started-at="2020-12-19T16:28:21 CST" name="afterMethod" finished-at="2020-12-19T16:28:21 CST" duration-ms="171" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchForSchoolTest status=SUCCESS method=HomePageTest.searchForSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.HomePageTest@63355449] output={null}]]]>
+                <![CDATA[[TestResult name=searchForSchoolTest status=SUCCESS method=HomePageTest.searchForSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.HomePageTest@16610890] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1098,11 +1098,11 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- com.jostens.qa.testcases.HomePageTest -->
       <class name="com.jostens.qa.testcases.PaymentPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.PaymentPageTest@1700915]" started-at="2020-12-19T12:03:40 CST" name="beforeClass" finished-at="2020-12-19T12:03:40 CST" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.PaymentPageTest@53fdffa1]" started-at="2020-12-19T16:30:02 CST" name="beforeClass" finished-at="2020-12-19T16:30:02 CST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.PaymentPageTest@1700915]" started-at="2020-12-19T12:03:40 CST" name="test" data-provider="inputs" finished-at="2020-12-19T12:03:50 CST" duration-ms="9610" status="PASS">
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.PaymentPageTest@53fdffa1]" started-at="2020-12-19T16:30:02 CST" name="test" data-provider="inputs" finished-at="2020-12-19T16:30:12 CST" duration-ms="9845" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1116,7 +1116,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[Success - 2020/12/19 12:00:12]]>
+                <![CDATA[Success - 2020/12/19 12:03:50]]>
               </value>
             </param>
             <param index="3">
@@ -1141,11 +1141,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.PaymentPageTest@1700915]" started-at="2020-12-19T12:03:50 CST" name="afterMethod" finished-at="2020-12-19T12:03:50 CST" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.PaymentPageTest@53fdffa1]" started-at="2020-12-19T16:30:12 CST" name="afterMethod" finished-at="2020-12-19T16:30:12 CST" duration-ms="67" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test status=SUCCESS method=PaymentPageTest.test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.PaymentPageTest@1700915] output={null}]]]>
+                <![CDATA[[TestResult name=test status=SUCCESS method=PaymentPageTest.test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.PaymentPageTest@53fdffa1] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1154,11 +1154,11 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- com.jostens.qa.testcases.PaymentPageTest -->
       <class name="com.jostens.qa.testcases.ShoppingCartPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@6a28ffa4]" started-at="2020-12-19T12:03:09 CST" name="beforeClass" finished-at="2020-12-19T12:03:09 CST" duration-ms="43" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@383bfa16]" started-at="2020-12-19T16:29:33 CST" name="beforeClass" finished-at="2020-12-19T16:29:33 CST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@6a28ffa4]" started-at="2020-12-19T12:03:09 CST" name="addProductToCartTest" data-provider="inputs" finished-at="2020-12-19T12:03:11 CST" duration-ms="1735" status="PASS">
+        <test-method signature="addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@383bfa16]" started-at="2020-12-19T16:29:33 CST" name="addProductToCartTest" data-provider="inputs" finished-at="2020-12-19T16:29:35 CST" duration-ms="2173" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1192,7 +1192,7 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[Failure - 2020/12/19 11:59:32]]>
+                <![CDATA[Success - 2020/12/19 12:03:11]]>
               </value>
             </param>
             <param index="7">
@@ -1204,18 +1204,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@6a28ffa4]" started-at="2020-12-19T12:03:11 CST" name="afterMethod" finished-at="2020-12-19T12:03:11 CST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@383bfa16]" started-at="2020-12-19T16:29:35 CST" name="afterMethod" finished-at="2020-12-19T16:29:35 CST" duration-ms="84" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addProductToCartTest status=SUCCESS method=ShoppingCartPageTest.addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@6a28ffa4] output={null}]]]>
+                <![CDATA[[TestResult name=addProductToCartTest status=SUCCESS method=ShoppingCartPageTest.addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@383bfa16] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@6a28ffa4]" started-at="2020-12-19T12:03:11 CST" name="addProductToCartTest" data-provider="inputs" finished-at="2020-12-19T12:03:11 CST" duration-ms="90" status="PASS">
+        <test-method signature="addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@383bfa16]" started-at="2020-12-19T16:29:35 CST" name="addProductToCartTest" data-provider="inputs" finished-at="2020-12-19T16:29:35 CST" duration-ms="140" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1249,7 +1249,7 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[Failure - 2020/12/19 11:59:33]]>
+                <![CDATA[Success - 2020/12/19 12:03:11]]>
               </value>
             </param>
             <param index="7">
@@ -1261,18 +1261,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@6a28ffa4]" started-at="2020-12-19T12:03:11 CST" name="afterMethod" finished-at="2020-12-19T12:03:11 CST" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@383bfa16]" started-at="2020-12-19T16:29:35 CST" name="afterMethod" finished-at="2020-12-19T16:29:36 CST" duration-ms="74" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addProductToCartTest status=SUCCESS method=ShoppingCartPageTest.addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@6a28ffa4] output={null}]]]>
+                <![CDATA[[TestResult name=addProductToCartTest status=SUCCESS method=ShoppingCartPageTest.addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@383bfa16] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@6a28ffa4]" started-at="2020-12-19T12:03:11 CST" name="addProductToCartTest" data-provider="inputs" finished-at="2020-12-19T12:03:11 CST" duration-ms="102" status="PASS">
+        <test-method signature="addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@383bfa16]" started-at="2020-12-19T16:29:36 CST" name="addProductToCartTest" data-provider="inputs" finished-at="2020-12-19T16:29:36 CST" duration-ms="146" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1306,7 +1306,7 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[Failure - 2020/12/19 11:59:33]]>
+                <![CDATA[Success - 2020/12/19 12:03:11]]>
               </value>
             </param>
             <param index="7">
@@ -1318,11 +1318,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@6a28ffa4]" started-at="2020-12-19T12:03:11 CST" name="afterMethod" finished-at="2020-12-19T12:03:11 CST" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@383bfa16]" started-at="2020-12-19T16:29:36 CST" name="afterMethod" finished-at="2020-12-19T16:29:36 CST" duration-ms="75" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addProductToCartTest status=SUCCESS method=ShoppingCartPageTest.addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@6a28ffa4] output={null}]]]>
+                <![CDATA[[TestResult name=addProductToCartTest status=SUCCESS method=ShoppingCartPageTest.addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ShoppingCartPageTest@383bfa16] output={null}]]]>
               </value>
             </param>
           </params>
