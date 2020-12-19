@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
@@ -25,8 +24,6 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -92,15 +89,8 @@ public class TestBase {
 	}
 	
 	@SuppressWarnings("deprecation")
-	public static void initializeDriver(String browserName, String browser_version, String os, String os_version) throws MalformedURLException {
+	public static void initializeDriver() {
 		String testingBrowser = prop.getProperty("browser");
-		
-//		String methodName = name.getName();
-		
-		caps.setCapability("os", os);
-		caps.setCapability("os_version", os_version);
-		caps.setCapability("browser_version", browser_version);
-//		caps.setCapability("name", methodName);
 		
 		//Initialize the relevant browser driver
 		if (testingBrowser.equalsIgnoreCase("internetexplorer")) {
@@ -138,12 +128,11 @@ public class TestBase {
 		eDriver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
 	}
 	
-	@Parameters({ "browser", "browser_version", "os", "os_version" })
 	@BeforeSuite
-	public void beforeSuite(String browserName, String browser_version, String os, String os_version) throws MalformedURLException {
+	public void beforeSuite() {
 		//Initialize Variable(s)
 		System.out.println("Performing the script's setups (@BeforeSuite)");
-		initializeDriver(browserName, browser_version, os, os_version); //Sets up WebDriver with Listeners
+		initializeDriver(); //Sets up WebDriver with Listeners
 		genMethods = new TestUtil();
 	}
 	

@@ -9,11 +9,6 @@
 		<listener class-name="com.jostens.qa.util.Listeners"></listener>
 	</listeners>
 	
-	<parameter name="os" value="Windows" />
-	<parameter name="os_version" value="10" />
-	<parameter name="browser" value="Chrome" />
-	<parameter name="browser_version" value="81" />
-	
 	<test name="Test 1">
 		<classes>
 			<class name="com.jostens.qa.testcases.LoginPageTest"></class>
