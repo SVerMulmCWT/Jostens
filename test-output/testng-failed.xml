@@ -10,15 +10,24 @@
   </listeners>
   <test thread-count="5" name="Test 1(failed)">
     <classes>
-      <class name="com.jostens.qa.testcases.LoginPageTest">
+      <class name="com.jostens.qa.testcases.ShoppingCartPageTest">
         <methods>
+          <include name="addProductToCartTest" invocation-numbers="0 1 2"/>
           <include name="afterMethod"/>
-          <include name="loginTest" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.ShoppingCartPageTest -->
+      <class name="com.jostens.qa.testcases.SchoolStorePageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="productSearchTest" invocation-numbers="0 1 2"/>
+          <include name="afterMethod"/>
           <include name="afterSuite"/>
           <include name="beforeSuite"/>
-          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.jostens.qa.testcases.LoginPageTest -->
+      </class> <!-- com.jostens.qa.testcases.SchoolStorePageTest -->
     </classes>
   </test> <!-- Test 1(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->
