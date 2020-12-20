@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- <suite name="TestSuite" thread-count="2" parallel="tests" verbose="3> -->
+<suite name="BrowserStack Test automation regression suite" thread-count="3" parallel="tests" verbose="3">
+	<listeners>
+<!-- 		<listener class-name="generalfunctions.Listeners"></listener> -->
+<!-- 		<listener class-name="com.jostens.qa.analyzer.MyTransformer"></listener> -->
+		<listener class-name="com.jostens.qa.util.Listeners"></listener>
+	</listeners>
+	
+	
+	
+	<test name="Test 1">
+		
+		<parameter name="os" value="OS X" />
+		<parameter name="os_version" value="Catalina" />
+		<parameter name="browser" value="Edge" />
+		<parameter name="browser_version" value="81" />
+	
+		<classes>
+			<class name="com.jostens.qa.testcases.LoginPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.HomePageTest"></class>
+ 			<class name="com.jostens.qa.testcases.SchoolStorePageTest"></class>
+ 			<class name="com.jostens.qa.testcases.ShoppingCartPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.CheckoutPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.PaymentPageTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Test 2">
+	
+		<parameter name="os" value="Windows"/>
+		<parameter name="os_version" value="10"/>
+		<parameter name="browser" value="firefox"/>
+		<parameter name="browser_version" value="81"/>
+	
+		<classes>
+			<class name="com.jostens.qa.testcases.LoginPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.HomePageTest"></class>
+ 			<class name="com.jostens.qa.testcases.SchoolStorePageTest"></class>
+ 			<class name="com.jostens.qa.testcases.ShoppingCartPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.CheckoutPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.PaymentPageTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Test 3">
+		<classes>
+			<class name="com.jostens.qa.testcases.LoginPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.HomePageTest"></class>
+ 			<class name="com.jostens.qa.testcases.SchoolStorePageTest"></class>
+ 			<class name="com.jostens.qa.testcases.ShoppingCartPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.CheckoutPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.PaymentPageTest"></class>
+		</classes>
+	</test>
+</suite>

@@ -51,8 +51,6 @@ public class HomePageTest extends TestBase {
 	@Test(dataProvider="inputs", dataProviderClass=ExcelMethods.class)
 	public void searchForSchoolTest(String schoolName, String schoolStoreTitle, String finalStatus, String dataRow) {
 		System.out.println("@Test - HomePageTest()");
-		System.out.println(schoolName);
-		System.out.println("dataRow + " + dataRow);
 		
 		//Initialize Variable(s)
 		checkpoint = new SoftAssert(); //SoftAssert Setup (for identifying checkpoints)

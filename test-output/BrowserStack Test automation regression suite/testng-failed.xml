@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [BrowserStack Test automation regression suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <listeners>
+    <listener class-name="com.jostens.qa.util.Listeners"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="Test 3(failed)" verbose="3">
+    <classes>
+      <class name="com.jostens.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.LoginPageTest -->
+      <class name="com.jostens.qa.testcases.ShoppingCartPageTest">
+        <methods>
+          <include name="addProductToCartTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.ShoppingCartPageTest -->
+      <class name="com.jostens.qa.testcases.PaymentPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="paymentMethodTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.PaymentPageTest -->
+      <class name="com.jostens.qa.testcases.SchoolStorePageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="productSearchTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.SchoolStorePageTest -->
+      <class name="com.jostens.qa.testcases.CheckoutPageTest">
+        <methods>
+          <include name="verifyProductsInCheckoutTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="proceedWithCheckoutTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.CheckoutPageTest -->
+      <class name="com.jostens.qa.testcases.HomePageTest">
+        <methods>
+          <include name="searchForSchoolTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Test 3(failed) -->
+  <test thread-count="3" parallel="tests" name="Test 2(failed)" verbose="3">
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="browser_version" value="81"/>
+    <classes>
+      <class name="com.jostens.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.LoginPageTest -->
+      <class name="com.jostens.qa.testcases.ShoppingCartPageTest">
+        <methods>
+          <include name="addProductToCartTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.ShoppingCartPageTest -->
+      <class name="com.jostens.qa.testcases.PaymentPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="paymentMethodTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.PaymentPageTest -->
+      <class name="com.jostens.qa.testcases.SchoolStorePageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="productSearchTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.SchoolStorePageTest -->
+      <class name="com.jostens.qa.testcases.CheckoutPageTest">
+        <methods>
+          <include name="verifyProductsInCheckoutTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="proceedWithCheckoutTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.CheckoutPageTest -->
+      <class name="com.jostens.qa.testcases.HomePageTest">
+        <methods>
+          <include name="searchForSchoolTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+  <test thread-count="3" parallel="tests" name="Test 1(failed)" verbose="3">
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Catalina"/>
+    <parameter name="browser" value="Edge"/>
+    <parameter name="browser_version" value="81"/>
+    <classes>
+      <class name="com.jostens.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.LoginPageTest -->
+      <class name="com.jostens.qa.testcases.ShoppingCartPageTest">
+        <methods>
+          <include name="addProductToCartTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.ShoppingCartPageTest -->
+      <class name="com.jostens.qa.testcases.PaymentPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="paymentMethodTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.PaymentPageTest -->
+      <class name="com.jostens.qa.testcases.SchoolStorePageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="productSearchTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.SchoolStorePageTest -->
+      <class name="com.jostens.qa.testcases.CheckoutPageTest">
+        <methods>
+          <include name="verifyProductsInCheckoutTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="proceedWithCheckoutTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.CheckoutPageTest -->
+      <class name="com.jostens.qa.testcases.HomePageTest">
+        <methods>
+          <include name="searchForSchoolTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Test 1(failed) -->
+</suite> <!-- Failed suite [BrowserStack Test automation regression suite] -->

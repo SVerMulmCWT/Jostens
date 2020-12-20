@@ -48,10 +48,9 @@ public class CheckoutPageTest extends TestBase {
 		checkoutPage = new CheckoutPage(eDriver, reportLogger);
 	}
 	
-	@Test(dataProvider="inputs", dataProviderClass=ExcelMethods.class)
+	@Test(priority = 1, dataProvider="inputs", dataProviderClass=ExcelMethods.class)
 	public void proceedWithCheckoutTest(String product, String productQuantity, String productPrice, String checkoutPageTitle, String email, String enableEmails, String firstName, String lastName, String address, String city, String country, String state, String zipCode, String phoneNumber, String saveInfo, String finalResult, String dataRow) throws InterruptedException {
 		System.out.println("@Test - proceedWithCheckoutTest()");
-		System.out.println(product);
 		
 		//Initialize Variable(s)
 		checkpoint = new SoftAssert(); //SoftAssert Setup (for identifying checkpoints)
@@ -79,7 +78,11 @@ public class CheckoutPageTest extends TestBase {
 		//Proceed to the Shipping Page
 		checkoutPage.continueToShipping(saveInfo);
 		
-		checkpoint = checkoutPage.verifyShippingInfo(checkpoint, email, address, city, state, zipCode, country);
+		//Check if the shipping info matches expectation
+		checkpoint = checkoutPage.verifyShippingInfo(checkpoint, address, city, state, zipCode, country);
+		
+		//Check if the email info matches expectation
+		checkpoint = checkoutPage.verifyEmailInfo(checkpoint, email);
 		
 		//Assert all checkpoints
 		checkpoint.assertAll();
@@ -88,9 +91,11 @@ public class CheckoutPageTest extends TestBase {
 		excelMethods.setSheetName("Checkout");
 	}
 	
-	@Test(priority = 1, dataProvider="inputs", dataProviderClass=ExcelMethods.class)
-	public void test2(String product, String productQuantity, String productPrice, String checkoutPageTitle, String email, String enableEmails, String firstName, String lastName, String address, String city, String country, String state, String zipCode, String phoneNumber, String saveInfo, String finalResult, String dataRow) {
-		System.out.println(dataRow);
+	@Test(priority = 2, dataProvider="inputs", dataProviderClass=ExcelMethods.class)
+	public void verifyProductsInCheckoutTest(String product, String productQuantity, String productPrice, String checkoutPageTitle, String email, String enableEmails, String firstName, String lastName, String address, String city, String country, String state, String zipCode, String phoneNumber, String saveInfo, String finalResult, String dataRow) {
+		System.out.println("@Test - proceedWithCheckoutTest()");
+		
+		//Check if all the product info in the checkout matches expectations
 		checkpoint = checkoutPage.verifyProductFromCheckout(checkpoint, product, productQuantity, productPrice);
 	}
 }

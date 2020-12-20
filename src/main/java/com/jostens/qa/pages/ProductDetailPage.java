@@ -105,6 +105,10 @@ public class ProductDetailPage {
 	}
 	
 	public SoftAssert verifyProductLogoCoordinates(SoftAssert softAssert, String left, String top, String width, String height) {
+		//Output a message to the report & system
+		System.out.println("Checking if the logo's coordinates matches expectations");
+		reportLogger.log(LogStatus.INFO, "Checking if the logo's coordinates matches expectations");
+		
 		//Initialize Variable(s)
 		boolean verificationStatus = false; //The 'verificationStatus' becomes 'true' if the logo's position passed successfully
 		String positionAttribute = productLogoCoordinates.getAttribute("style");
@@ -116,12 +120,12 @@ public class ProductDetailPage {
 		//Check if all the positions match expectations, then output the results to the report & system, and return the status for the @Test's SoftAssert
 		if (positionAttribute.contains(leftAttribute) && positionAttribute.contains(topAttribute) && positionAttribute.contains(widthAttribute) && positionAttribute.contains(heightAttribute)) {
 			verificationStatus = true;
-			System.out.println("Product's Logo Position Successful - The logo's coordinates/location on the T-Shirt matches expectations.");
-			reportLogger.log(LogStatus.PASS, "Product's Logo Position Successful - The logo's coordinates/location on the T-Shirt matches expectations.");
+			System.out.println("Product's Logo Position Successful - The logo's coordinates/location on the T-Shirt matches expectations");
+			reportLogger.log(LogStatus.PASS, "Product's Logo Position Successful - The logo's coordinates/location on the T-Shirt matches expectations");
 		} else {
 			verificationStatus = false;
-			System.out.println("Product's Logo Position Failed - The logo's coordinates/location on the T-Shirt does not match expectations.");
-			reportLogger.log(LogStatus.FAIL, "Product's Logo Position Failed - The logo's coordinates/location on the T-Shirt does not match expectations.");
+			System.out.println("Product's Logo Position Failed - The logo's coordinates/location on the T-Shirt does not match expectations");
+			reportLogger.log(LogStatus.FAIL, "Product's Logo Position Failed - The logo's coordinates/location on the T-Shirt does not match expectations");
 		}
 		
 		//Check if the 'left' position matches expectations
@@ -183,7 +187,14 @@ public class ProductDetailPage {
 		//Initialize Variable(s)
 		String browserTitle = eDriver.getTitle();
 		
+		//Check if the shopping cart page title matches expectation
 		softAssert.assertEquals(browserTitle, shoppingCartTitle);
+		
+		if (shoppingCartTitle.equals(browserTitle)) {
+			System.out.println("Success - shopping cart page title matches expectation");
+		} else {
+			System.out.println("Failed - shopping cart page title does not match expectation. Expected shopping cart page title -> " + shoppingCartTitle + ", actual shopping cart page title -> " + browserTitle);
+		}
 		
 		//Return the status for the SoftAssert
 		return softAssert;

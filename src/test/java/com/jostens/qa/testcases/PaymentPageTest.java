@@ -51,7 +51,7 @@ public class PaymentPageTest extends TestBase {
 	}
 	
 	@Test(dataProvider="inputs", dataProviderClass=ExcelMethods.class)
-	public void test(String creditCardNumber, String cardHolderName, String expiryDate, String securityCode, String expectedErrorMessage, String finalStatus, String dataRow) throws InterruptedException {
+	public void paymentMethodTest(String creditCardNumber, String cardHolderName, String expiryDate, String securityCode, String expectedErrorMessage, String finalStatus, String dataRow) throws InterruptedException {
 		System.out.println("@Test - PaymentPageTest()");
 		
 		//Initialize Variable(s)
@@ -66,7 +66,10 @@ public class PaymentPageTest extends TestBase {
 		
 		//Click 'Pay Now' to confirm payment
 		paymentPage.proceedToPayment();
-		Thread.sleep(6000);
+		
+		//Pause the script for a bit
+		Thread.sleep(3000);
+		
 		//Check if the expected error message appears
 		checkpoint = paymentPage.verifyPayment(checkpoint, expectedErrorMessage);
 		

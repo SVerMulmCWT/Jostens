@@ -105,10 +105,21 @@ public class HomePage {
 	}
 	
 	public SoftAssert verifySuccessfulSchoolSearch(SoftAssert softAssert, String schoolName) {
+		//Output a message to the report & system
+		System.out.println("Checking if the school page title matches expectation (aka. the relevant school page was properly searched)");
+		reportLogger.log(LogStatus.INFO, "Checking if the school page title matches expectation (aka. the relevant school page was properly searched)");
+		
 		//Initialize Variable(s)
 		String schoolPageTitle = eDriver.getTitle();
 		
+		//Check if the school's page title matches expectation
 		softAssert.assertEquals(schoolPageTitle, schoolName);
+		
+		if (schoolName.equals(schoolPageTitle)) {
+			System.out.println("Success - school page title matches expectation");
+		} else {
+			System.out.println("Failed - school page title does not match expectation. Expected school page title info -> " + schoolName + ", actual school page title info -> " + schoolPageTitle);
+		}
 		
 		//Return the status for the SoftAssert
 		return softAssert;

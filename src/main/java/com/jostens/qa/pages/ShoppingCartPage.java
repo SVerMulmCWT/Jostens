@@ -115,6 +115,10 @@ public class ShoppingCartPage {
 	}
 	
 	public SoftAssert verifyShoppingCart(SoftAssert softAssert, String pricePerItem, String itemCount, String itemPriceTotal, String itemSubtotal, String dataRow) {
+		//Output a message to the report & system
+		System.out.println("Checking if the product info in the shopping cart matches expectations");
+		reportLogger.log(LogStatus.INFO, "Checking if the product info in the shopping cart matches expectations");
+		
 		//Initialize Variable(s)
 		List<WebElement> productList = eDriver.findElements(By.xpath("//form[@id='cart_form']//div[@class='cart__card container is-align-center']"));
 		int row = Integer.valueOf(dataRow);
@@ -126,28 +130,20 @@ public class ShoppingCartPage {
 		softAssert.assertEquals(getSubtotal(), itemSubtotal);
 		softAssert.assertEquals(productList.size(), 3);
 		
+		if (pricePerItem.equals(getPricePerProduct(row))) {
+			System.out.println("Success - checkout page title matches expectation");
+		} else {
+			System.out.println("Failed - checkout page title does not match expectation. Expected checkout page title -> " + pricePerItem + ", actual checkout page title -> " + getPricePerProduct(row));
+		}
+		
+		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		
 		//Return the status for the SoftAssert
 		return softAssert;
 	}
-	
-//	public SoftAssert verifyShoppingCart(SoftAssert softAssert, String pricePerItem, String itemCount, String itemPriceTotal, String itemSize, String itemColor, String itemSubtotal, String dataRow) {
-//		//Initialize Variable(s)
-//		List<WebElement> productList = eDriver.findElements(By.xpath("//form[@id='cart_form']//div[@class='cart__card container is-align-center']"));
-//		int row = Integer.valueOf(dataRow);
-//		
-//		softAssert.assertEquals(getPricePerProduct(row), pricePerItem);
-//		softAssert.assertEquals(getProductCount(row), itemCount);
-//		softAssert.assertEquals(getProductPriceTotal(row), itemPriceTotal);
-//		
-//		softAssert.assertEquals(getProductSize(row), itemSize);
-//		softAssert.assertEquals(getProductColor(row), itemColor);
-//		
-//		softAssert.assertEquals(getSubtotal(), itemSubtotal);
-//		softAssert.assertEquals(productList.size(), 3);
-//		
-//		//Return the status for the SoftAssert
-//		return softAssert;
-//	}
 	
 	public void proceedToCheckout () {
 		//Output a message to the report & system
@@ -159,10 +155,21 @@ public class ShoppingCartPage {
 	}
 	
 	public SoftAssert verifyCheckoutPage(SoftAssert softAssert, String checkoutPageTitle) {
+		//Output a message to the report & system
+		System.out.println("Checking if the checkout page title matches expectation");
+		reportLogger.log(LogStatus.INFO, "Checking if the checkout page title matches expectation");
+		
 		//Initialize Variable(s)
 		String browserTitle = eDriver.getTitle();
 		
+		//Check if the checkout page title matches expectation
 		softAssert.assertEquals(browserTitle, checkoutPageTitle);
+		
+		if (checkoutPageTitle.equals(browserTitle)) {
+			System.out.println("Success - checkout page title matches expectation");
+		} else {
+			System.out.println("Failed - checkout page title does not match expectation. Expected checkout page title -> " + checkoutPageTitle + ", actual checkout page title -> " + browserTitle);
+		}
 		
 		//Return the status for the SoftAssert
 		return softAssert;

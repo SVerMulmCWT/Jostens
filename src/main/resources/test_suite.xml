@@ -9,14 +9,25 @@
 		<listener class-name="com.jostens.qa.util.Listeners"></listener>
 	</listeners>
 	
+<!-- 	<parameter name="os" value="Windows" /> -->
+<!-- 	<parameter name="os_version" value="10" /> -->
+<!-- 	<parameter name="browser" value="Chrome" /> -->
+<!-- 	<parameter name="browser_version" value="81" /> -->
+	
+	<parameter name="os" value="Windows" />
+	<parameter name="os_version" value="10" />
+	<parameter name="browser" value="Edge" />
+	<parameter name="browser_version" value="81" />
+	
 	<test name="Test 1">
 		<classes>
 			<class name="com.jostens.qa.testcases.LoginPageTest"></class>
-<!--  			<class name="com.jostens.qa.testcases.HomePageTest"></class> -->
-<!--  			<class name="com.jostens.qa.testcases.SchoolStorePageTest"></class> -->
-<!--  			<class name="com.jostens.qa.testcases.ShoppingCartPageTest"></class> -->
-<!--  			<class name="com.jostens.qa.testcases.CheckoutPageTest"></class> -->
-<!--  			<class name="com.jostens.qa.testcases.PaymentPageTest"></class> -->
+ 			<class name="com.jostens.qa.testcases.HomePageTest"></class>
+ 			<class name="com.jostens.qa.testcases.SchoolStorePageTest"></class>
+ 			<class name="com.jostens.qa.testcases.ShoppingCartPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.CheckoutPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.PaymentPageTest"></class>
 		</classes>
 	</test>
+	
 </suite>

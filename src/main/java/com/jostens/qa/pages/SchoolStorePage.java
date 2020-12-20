@@ -51,8 +51,8 @@ public class SchoolStorePage {
 	 */
 	public void acceptCookies() {
 		//Output a message to the report & system
-		System.out.println("Select the 'Tee' filter");
-		reportLogger.log(LogStatus.INFO, "Select the 'Tee' filter");
+		System.out.println("Accepting the webpage's cookies");
+		reportLogger.log(LogStatus.INFO, "Accepting the webpage's cookies");
 		
 		//Accept the cookies, if the option is present
 		if (cookiesMessage.isDisplayed()) {
@@ -91,7 +91,14 @@ public class SchoolStorePage {
 		//Initialize Variable(s)
 		String productPageTitle = eDriver.getTitle();
 		
+		//Check if the product name page title matches expectation
 		softAssert.assertEquals(productPageTitle, productName);
+		
+		if (productName.equals(productPageTitle)) {
+			System.out.println("Success - product page title matches expectation");
+		} else {
+			System.out.println("Failed - product page title does not match expectation. Expected product page title -> " + productName + ", actual product page title -> " + productPageTitle);
+		}
 		
 		//Return the status for the SoftAssert
 		return softAssert;

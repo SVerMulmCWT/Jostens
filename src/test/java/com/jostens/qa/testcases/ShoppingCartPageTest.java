@@ -51,7 +51,6 @@ public class ShoppingCartPageTest extends TestBase {
 	@Test(dataProvider="inputs", dataProviderClass=ExcelMethods.class)
 	public void addProductToCartTest(String productName, String shoppingCartTitle, String pricePerItem, String itemCount, String itemPriceTotal, String itemSubtotal, String finalResult, String dataRow) throws InterruptedException {
 		System.out.println("@Test - ShoppingCartPageTest()");
-		System.out.println(shoppingCartTitle);
 		
 		//Initialize Variable(s)
 		checkpoint = new SoftAssert(); //SoftAssert Setup (for identifying checkpoints)

@@ -110,14 +110,9 @@ public class CheckoutPage {
 		
 		//Ensure the 'Email me Updates' checkbox is selected, if updates are desired, otherwise, ensure the checkbox is not selected
 		if (sendEmailsCheck && !sendEmailsCheckbox.isSelected()) {
-			System.out.println("Check the 'Send Email Updates' checkbox.");
 			sendEmailsCheckbox.click();
 		} else if (!sendEmailsCheck && sendEmailsCheckbox.isSelected()) {
-			System.out.println("Remove the check for the 'Send Email Updates' checkbox.");
 			sendEmailsCheckbox.click();
-		} else {
-			System.out.println("saveInfo=" + sendEmails);
-			System.out.println("emailUpdatesCheckbox.isSelect()=" + sendEmailsCheckbox.isSelected());
 		}
 	}
 	
@@ -185,14 +180,9 @@ public class CheckoutPage {
 		
 		//Ensure the 'Email me Updates' checkbox is selected, if updates are desired, otherwise, ensure the checkbox is not selected
 		if (saveInfoCheck && !saveInfoCheckbox.isSelected()) {
-			System.out.println("Check the 'Save Info' checkbox.");
 			saveInfoCheckbox.click();
 		} else if (!saveInfoCheck && saveInfoCheckbox.isSelected()) {
-			System.out.println("Remove the check for the 'Save Info' checkbox.");
 			saveInfoCheckbox.click();
-		} else {
-			System.out.println("saveInfo=" + saveInfo);
-			System.out.println("saveInfoCheckbox.isSelect()=" + saveInfoCheckbox.isSelected());
 		}
 		
 		//Click to proceed to the Shipping Page
@@ -200,6 +190,10 @@ public class CheckoutPage {
 	}
 	
 	public SoftAssert verifyProductFromCheckout(SoftAssert softAssert, String productName, String productQuantity, String productPrice) {
+		//Output a message to the report & system
+		System.out.println("Checking if the product info in the checkout matches expectations");
+		reportLogger.log(LogStatus.INFO, "Checking if the product info in the checkout matches expectations");
+		
 		//Initialize Variable(s)
 		boolean productFound = false;
 		
@@ -210,7 +204,7 @@ public class CheckoutPage {
 		
 		//Iterate through the lists to locate if the expected information is found - return true, if all info found, otherwise, return false
 		for (int i = 0; i < productNameList.size(); i++) {
-			System.out.println(productNameList.get(i).getText() + " - " + productQuantityList.get(i).getText() + " - " + productPriceList.get(i).getText());
+			
 			if (productName.equals(productNameList.get(i).getText()) && productQuantity.equals(productQuantityList.get(i).getText()) && productPrice.equals(productPriceList.get(i).getText())) {
 				productFound = true;
 				
@@ -218,6 +212,23 @@ public class CheckoutPage {
 				softAssert.assertEquals(productQuantityList.get(i).getText(), productQuantity);
 				softAssert.assertEquals(productPriceList.get(i).getText(), productPrice);
 				
+				if (productName.equals(productNameList.get(i).getText())) {
+					System.out.println("Success - product name matches expectation");
+				} else {
+					System.out.println("Failed - product name does not match expectations in the checkout. Expected product name -> " + productName + ", actual product name -> " + productNameList.get(i).getText());
+				}
+				
+				if (productQuantity.equals(productQuantityList.get(i).getText())) {
+					System.out.println("Success - product name matches expectation");
+				} else {
+					System.out.println("Failed - product name does not match expectations in the checkout. Expected product name -> " + productName + ", actual product name -> " + productNameList.get(i).getText());
+				}
+				
+				if (productPrice.equals(productPriceList.get(i).getText())) {
+					System.out.println("Success - product name matches expectation");
+				} else {
+					System.out.println("Failed - product name does not match expectations in the checkout. Expected product name -> " + productName + ", actual product name -> " + productNameList.get(i).getText());
+				}
 			}
 		}
 		
@@ -231,14 +242,40 @@ public class CheckoutPage {
 		return softAssert;
 	}
 	
-	public SoftAssert verifyShippingInfo(SoftAssert softAssert, String email, String address, String city, String state, String zipCode, String country) {
+	public SoftAssert verifyShippingInfo(SoftAssert softAssert, String address, String city, String state, String zipCode, String country) {
+		//Output a message to the report & system
+		System.out.println("Checking if the shipping info in the checkout matches expectations");
+		reportLogger.log(LogStatus.INFO, "Checking if the shipping info in the checkout matches expectations");
+		
 		//Initialize Variable(s)
 		String fullAddress = address + ", " + city + " " + genMethods.stateAbbreviation(state) + " " + zipCode + ", " + country;
-		System.out.println(fullAddress);
-		System.out.println(addressConfirmationField.getText());
 		
+		//Check if the shipping info matches expectation
 		softAssert.assertEquals(fullAddress, addressConfirmationField.getText());
+		
+		if (fullAddress.equals(addressConfirmationField.getText())) {
+			System.out.println("Success - shipping info matches expectation");
+		} else {
+			System.out.println("Failed - shipping info does not match expectation. Expected shipping info -> " + fullAddress + ", actual shipping info -> " + addressConfirmationField.getText());
+		}
+		
+		//Return the status for the SoftAssert
+		return softAssert;
+	}
+	
+	public SoftAssert verifyEmailInfo(SoftAssert softAssert, String email) {
+		//Output a message to the report & system
+		System.out.println("Checking if the email info in the checkout matches expectations");
+		reportLogger.log(LogStatus.INFO, "Checking if the email info in the checkout matches expectations");
+		
+		//Check if the email info matches expectation
 		softAssert.assertEquals(email, emailConfirmationField.getText());
+		
+		if (email.equals(emailConfirmationField.getText())) {
+			System.out.println("Success - email info matches expectation");
+		} else {
+			System.out.println("Failed - email info does not match expectation. Expected email info -> " + email + ", actual email info -> " + emailConfirmationField.getText());
+		}
 		
 		//Return the status for the SoftAssert
 		return softAssert;

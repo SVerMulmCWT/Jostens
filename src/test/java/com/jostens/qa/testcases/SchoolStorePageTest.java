@@ -51,7 +51,6 @@ public class SchoolStorePageTest extends TestBase {
 	@Test(dataProvider="inputs", dataProviderClass=ExcelMethods.class)
 	public void productSearchTest(String product, String productPageTitle, String productColor, String productSize, String logoNumber, String logoPosition, String logoLeftValue, String logoTopValue, String logoWidthValue, String logoHeightValue, String finalResult, String dataRow) throws InterruptedException {
 		System.out.println("@Test - SchoolStorePageTest()");
-		System.out.println("Shopping for " + product);
 		
 		//Initialize Variable(s)
 		checkpoint = new SoftAssert(); //SoftAssert Setup (for identifying checkpoints)

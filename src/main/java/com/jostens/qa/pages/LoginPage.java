@@ -1,9 +1,6 @@
 package com.jostens.qa.pages;
 
-import java.net.URL;
-
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -63,7 +60,7 @@ public class LoginPage {
 		reportLogger.log(LogStatus.INFO, "Navigating to the website -> " + website);
 		
 		//Access the specified website
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 6; i++) {
 			try {
 				eDriver.get(website);
 				break;
@@ -114,17 +111,8 @@ public class LoginPage {
 			System.out.println("Success - user logged in correctly, with relevant name being displayed");
 			reportLogger.log(LogStatus.PASS, "Success - user logged in correctly, with relevant name being displayed");
 		} else {
-			System.out.println("Failed - user logged in correctly, with relevant name being displayed");
-			reportLogger.log(LogStatus.PASS, "Failed - user logged in correctly, with relevant name being displayed");
-			
-			System.out.println(usernameWelcome.getText());
-			if (usernameWelcome.getText().equals("")) {
-				System.out.println("hello world");
-			}
-			
-			if (usernameWelcome.getText().equals(null)) {
-				System.out.println("bye world");
-			}
+			System.out.println("Failed - user logged in incorrectly, with an unexpected name being displayed. Expected the name -> " + expectedUserName + ", but found -> " + usernameWelcome.getText());
+			reportLogger.log(LogStatus.PASS, "Failed - user logged in incorrectly, with an unexpected name being displayed. Expected the name -> " + expectedUserName + ", but found -> " + usernameWelcome.getText());
 		}
 		
 		//Return the status for the SoftAssert

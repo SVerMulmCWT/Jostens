@@ -75,7 +75,6 @@ public class PaymentPage {
 		List<WebElement> iframeList = eDriver.findElements(By.tagName("iframe"));
 		
 		//Switch to the correct iframe
-		System.out.println(iframeList.get(1).getAttribute("id"));
 		eDriver.switchTo().frame(iframeList.get(1).getAttribute("id"));
 		
 		//Enter the Credit Card Number
@@ -97,7 +96,6 @@ public class PaymentPage {
 		List<WebElement> iframeList = eDriver.findElements(By.tagName("iframe"));
 		
 		//Switch to the correct iframe
-		System.out.println(iframeList.get(2).getAttribute("id"));
 		eDriver.switchTo().frame(iframeList.get(2).getAttribute("id"));
 		
 		//Enter the Credit Card Number
@@ -116,7 +114,6 @@ public class PaymentPage {
 		List<WebElement> iframeList = eDriver.findElements(By.tagName("iframe"));
 		
 		//Switch to the correct iframe
-		System.out.println(iframeList.get(3).getAttribute("id"));
 		eDriver.switchTo().frame(iframeList.get(3).getAttribute("id"));
 		
 		//Enter the Credit Card Number
@@ -136,7 +133,6 @@ public class PaymentPage {
 		List<WebElement> iframeList = eDriver.findElements(By.tagName("iframe"));
 		
 		//Switch to the correct iframe
-		System.out.println(iframeList.get(4).getAttribute("id"));
 		eDriver.switchTo().frame(iframeList.get(4).getAttribute("id"));
 		
 		//Enter the Credit Card Number
@@ -163,13 +159,18 @@ public class PaymentPage {
 	}
 	
 	public SoftAssert verifyPayment(SoftAssert softAssert, String errorMessage) {
-//		//Initialize Variable(s)
-//		System.out.println(paymentErrorMessage.getText());
-//		System.out.println(paymentErrorMessage.getAttribute("class"));
+		//Output a message to the report & system
+		System.out.println("Checking if the payment info matches expectations");
+		reportLogger.log(LogStatus.INFO, "Checking if the payment info matches expectations");
 		
 		//Check if the payment's error message matches expectation
 		softAssert.assertEquals(paymentErrorMessage.getText(), errorMessage);
-//		softAssert.assertTrue(payNowButton.isDisplayed());
+		
+		if (errorMessage.equals(paymentErrorMessage.getText())) {
+			System.out.println("Success - error message matches expectation");
+		} else {
+			System.out.println("Failed - error message does not match expectation. Expected error message -> " + errorMessage + ", actual error message -> " + paymentErrorMessage.getText());
+		}
 		
 		//Return the status for the SoftAssert
 		return softAssert;

@@ -21,7 +21,7 @@ public class ExcelMethods {
 	
 	//Location of the Excel File
 	private static String path = System.getProperty("user.dir") + "\\src\\main\\java\\com\\jostens\\qa\\testdata\\Jostens.xlsx";
-	public static String sheetName = "Login";
+	public static String sheetName = "";
 	
 	public void setSheetName(String desiredSheetName) {
 		sheetName = desiredSheetName;
@@ -64,17 +64,15 @@ public class ExcelMethods {
 	//Retrieve an Excel DataSheet for automation testing
 	@DataProvider(name="inputs")
 	public String[][] getDataTable() {
-		
+		System.out.println(path + " - " + sheetName);
 		//Initialise Variable(s)
 		String[][] importDataTable = null;
-		System.out.println(path + " - " + sheetName);
+		
 		try {
 			//Open the Excel File
 			FileInputStream ExcelFile = new FileInputStream(path);
 			ExcelWBook = new XSSFWorkbook(ExcelFile);
 			ExcelWSheet = ExcelWBook.getSheet(sheetName);
-			
-			//System.out.println(path + " - " + sheetName + " - " + ExcelWSheet.getPhysicalNumberOfRows());
 			
 			int numRows = ExcelWSheet.getPhysicalNumberOfRows() - 1;
 			int numCols = ExcelWSheet.getRow(0).getPhysicalNumberOfCells() + 1;
